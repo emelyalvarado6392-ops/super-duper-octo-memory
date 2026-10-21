@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV - Emely Dayana Alvarado Hernández</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #fdf4f8;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .cv {
+            max-width: 1000px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(150, 80, 120, 0.15);
+        }
+
+        /* ENCABEZADO */
+        header {
+            background: linear-gradient(135deg, #d98bb2, #b879a6);
+            color: white;
+            padding: 45px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        header h2 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        .correo {
+            font-size: 15px;
+        }
+
+        /* CONTENIDO */
+        .contenido {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+
+        .izquierda {
+            background: #fff1f7;
+            padding: 35px;
+        }
+
+        .derecha {
+            padding: 35px;
+        }
+
+        section {
+            margin-bottom: 32px;
+        }
+
+        h3 {
+            color: #a55787;
+            font-size: 21px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e7b4cd;
+            padding-bottom: 7px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .habilidad {
+            margin-bottom: 18px;
+        }
+
+        .habilidad strong {
+            color: #9b4f7d;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .puesto {
+            color: #9b4f7d;
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        .empresa {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .semestre {
+            display: inline-block;
+            background: #d98bb2;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin: 5px 0 12px;
+        }
+
+        .contacto {
+            background: white;
+            padding: 18px;
+            border-radius: 15px;
+            margin-top: 15px;
+        }
+
+        .contacto p {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #b879a6;
+            color: white;
+            font-size: 14px;
+        }
+
+        /* RESPONSIVE PARA CELULAR */
+        @media (max-width: 700px) {
+
+            .cv {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            header {
+                padding: 30px 20px;
+            }
+
+            header h1 {
+                font-size: 27px;
+            }
+
+            header h2 {
+                font-size: 17px;
+            }
+
+            .contenido {
+                grid-template-columns: 1fr;
+            }
+
+            .izquierda,
+            .derecha {
+                padding: 25px;
+            }
+        }
+
+        /* IMPRESIÓN */
+        @media print {
+            body {
+                background: white;
+            }
+
+            .cv {
+                margin: 0;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Emely Dayana Alvarado Hernández</h1>
+        <h2>Ingeniería en Negocios | Estudiante universitaria</h2>
+        <p class="correo">📧 emely.alvarado6392@alumnos.udg.mx</p>
+    </header>
+
+
+    <div class="contenido">
+
+        <!-- COLUMNA IZQUIERDA -->
+        <aside class="izquierda">
+
+            <section>
+                <h3>🌷 Sobre mí</h3>
+
+                <p>
+                    Soy una estudiante de Ingeniería en Negocios, actualmente
+                    cursando el tercer semestre. Me considero una persona
+                    extrovertida, amable y empática, con facilidad para
+                    relacionarme con diferentes personas.
+                </p>
+
+                <p>
+                    Disfruto trabajar en equipo, convivir con los demás y
+                    participar en diferentes actividades. Me interesa seguir
+                    desarrollando mis habilidades personales y profesionales,
+                    especialmente aquellas relacionadas con la comunicación,
+                    el trato con las personas y el manejo de emociones.
+                </p>
+
+                <p>
+                    Me considero una persona con actitud positiva,
+                    responsable y con disposición para aprender cosas nuevas.
+                </p>
+            </section>
+
+
+            <section>
+                <h3>💕 Habilidades</h3>
+
+                <div class="habilidad">
+                    <strong>Comunicación</strong>
+                    Facilidad para expresarme y relacionarme con otras
+                    personas, buscando mantener una comunicación clara
+                    y respetuosa.
+                </div>
+
+                <div class="habilidad">
+                    <strong>Empatía</strong>
+                    Me esfuerzo por comprender las necesidades y perspectivas
+                    de las personas con las que convivo y trabajo.
+                </div>
+
+                <div class="habilidad">
+                    <strong>Amabilidad</strong>
+                    Considero importante ofrecer un trato respetuoso,
+                    cordial y agradable.
+                </div>
+
+                <div class="habilidad">
+                    <strong>Manejo de emociones</strong>
+                    Capacidad para mantener una actitud adecuada ante
+                    diferentes situaciones y aprender de cada experiencia.
+                </div>
+
+                <div class="habilidad">
+                    <strong>Trabajo en equipo</strong>
+                    Me gusta colaborar con otras personas, escuchar
+                    diferentes ideas y contribuir para alcanzar objetivos
+                    en común.
+                </div>
+
+                <div class="habilidad">
+                    <strong>Adaptabilidad</strong>
+                    Tengo disposición para aprender y adaptarme a
+                    diferentes ambientes.
+                </div>
+            </section>
+
+
+            <section>
+                <h3>🌸 Intereses</h3>
+
+                <ul>
+                    <li>Convivir con amigos y familiares.</li>
+                    <li>Participar en diferentes actividades.</li>
+                    <li>Conocer y relacionarme con nuevas personas.</li>
+                    <li>Aprender cosas nuevas.</li>
+                    <li>Desarrollarme personal y profesionalmente.</li>
+                    <li>Seguir creciendo dentro del área de los negocios.</li>
+                </ul>
+            </section>
+
+        </aside>
+
+
+        <!-- COLUMNA DERECHA -->
+        <main class="derecha">
+
+            <section>
+                <h3>🎓 Formación académica</h3>
+
+                <div class="puesto">
+                    Ingeniería en Negocios
+                </div>
+
+                <div class="empresa">
+                    Universidad de Cutlquepaque
+                </div>
+
+                <span class="semestre">Actualmente: 3.er semestre</span>
+
+                <p>
+                    Durante mi formación universitaria he desarrollado
+                    conocimientos y habilidades relacionados con el ámbito
+                    empresarial, la organización, la toma de decisiones
+                    y el trabajo en equipo.
+                </p>
+
+                <p>
+                    Mi objetivo es continuar preparándome académicamente
+                    para aplicar mis conocimientos en el ámbito profesional.
+                </p>
+            </section>
+
+
+            <section>
+                <h3>💼 Experiencia laboral</h3>
+
+                <div class="puesto">
+                    Atención al cliente
+                </div>
+
+                <div class="empresa">
+                    Marie Burger
+                </div>
+
+                <p>
+                    Actualmente trabajo en Marie Burger, donde he adquirido
+                    experiencia principalmente en el área de atención
+                    al cliente.
+                </p>
+
+                <p>
+                    Esta experiencia me ha permitido desarrollar habilidades
+                    para relacionarme con diferentes tipos de personas,
+                    brindar un trato amable y mantener una comunicación
+                    adecuada con los clientes.
+                </p>
+
+                <p>
+                    También me ha ayudado a fortalecer mi capacidad para
+                    manejar diferentes situaciones y emociones, trabajar
+                    de manera responsable y adaptarme a las necesidades
+                    del entorno laboral.
+                </p>
+            </section>
+
+
+            <section>
+                <h3>🌟 Fortalezas personales</h3>
+
+                <ul>
+                    <li>Soy una persona extrovertida y sociable.</li>
+                    <li>Tengo facilidad para convivir y relacionarme con otras personas.</li>
+                    <li>Me gusta aprender cosas nuevas.</li>
+                    <li>Tengo una actitud positiva.</li>
+                    <li>Soy empática y amable.</li>
+                    <li>Me adapto a diferentes situaciones.</li>
+                    <li>Me gusta trabajar y colaborar con otras personas.</li>
+                    <li>Tengo interés por seguir creciendo personal y profesionalmente.</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>🚀 Mi objetivo profesional</h3>
+
+                <p>
+                    Mi principal objetivo es terminar mi carrera de Ingeniería
+                    en Negocios y continuar adquiriendo experiencia que me
+                    permita desarrollarme profesionalmente.
+                </p>
+
+                <p>
+                    A futuro, quiero tener la oportunidad de ejercer mi carrera
+                    dentro de una buena empresa, aplicar los conocimientos
+                    adquiridos durante mi formación y seguir aprendiendo
+                    para crecer profesionalmente.
+                </p>
+            </section>
+
+
+            <section>
+                <h3>💗 Mi visión</h3>
+
+                <p>
+                    Quiero construir un futuro profesional en el que pueda
+                    aprovechar mis habilidades, conocimientos y experiencias
+                    para alcanzar mis metas.
+                </p>
+
+                <p>
+                    Estoy convencida de que cada experiencia, tanto académica
+                    como laboral, representa una oportunidad para aprender,
+                    mejorar y acercarme a mis objetivos.
+                </p>
+            </section>
+
+
+            <section>
+                <h3>📩 Contacto</h3>
+
+                <div class="contacto">
+                    <p><strong>Emely Dayana Alvarado Hernández</strong></p>
+                    <p>📧 emely.alvarado6392@alumnos.udg.mx</p>
+                    <p>
+                        <strong>Perfil:</strong>
+                        Estudiante de Ingeniería en Negocios |
+                        Atención al cliente |
+                        Comunicación |
+                        Empatía |
+                        Trabajo en equipo
+                    </p>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <footer>
+        Emely Dayana Alvarado Hernández · Ingeniería en Negocios
+    </footer>
+
+</div>
+
+</body>
+</html>
